@@ -1,4 +1,4 @@
-# 🐍 Python for Data Analytics – Complete Study Guide
+# Python for Data Analytics – Complete Study Guide
 
 This document covers **all topics and subtopics required for Python in Data Analytics**, aligned with **industry & interview expectations** for DA / BA / BI roles.
 
@@ -249,11 +249,3 @@ This document covers **all topics and subtopics required for Python in Data Anal
 - Pandas DataFrame questions
 - Logical problem solving
 - Business case scenarios
-
----
-
-## 📌 Next Steps
-- Practice Python interview questions (Beginner → Advanced)
-- Build end-to-end data analytics projects
-- Integrate Python with SQL & Power BI
-- Prepare for DA / BA / BI interviews
