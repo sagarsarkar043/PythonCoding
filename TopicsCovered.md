@@ -1,81 +1,259 @@
-# Sample Markdown File
+# 🐍 Python for Data Analytics – Complete Study Guide
 
-This is a plain text file formatted using **Markdown** syntax. Markdown is a lightweight markup language used for creating formatted text using a plain-text editor.
+This document covers **all topics and subtopics required for Python in Data Analytics**, aligned with **industry & interview expectations** for DA / BA / BI roles.
 
 ---
 
-## Headers
+## 1. Python Fundamentals
+### Core Concepts
+- Python syntax & indentation
+- Variables & data types
+  - int, float, string, boolean
+- Type casting
+- Comments & documentation
 
-You can create headers using hash marks (`#`):
+### Operators
+- Arithmetic operators
+- Comparison operators
+- Logical operators
+- Assignment operators
+- Membership & identity operators
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+---
 
-## Emphasis
+## 2. Control Flow & Logic Building
+### Conditional Statements
+- if, elif, else
+- Nested conditions
+- Ternary operator
 
-*   *Italic text* or _italic text_ (single asterisks or underscores).
-*   **Bold text** or __bold text__ (double asterisks or underscores).
-*   ***Bold and italic text*** (triple asterisks).
-*   ~Strikethrough text~ (two tildes, not standard Markdown but supported by many flavors like GitHub Flavored Markdown).
+### Loops
+- for loop
+- while loop
+- Nested loops
+- break, continue, pass
 
-## Lists
+---
 
-### Unordered List
+## 3. Python Data Structures
+### Lists
+- Indexing & slicing
+- List methods
+- List comprehensions
+- Nested lists
 
-Use asterisks (`*`), hyphens (`-`), or plus signs (`+`).
+### Tuples
+- Immutable nature
+- Tuple unpacking
 
-*   Item 1
-*   Item 2
-    *   Nested item A
-    *   Nested item B
-*   Item 3
+### Sets
+- Set creation
+- Set operations (union, intersection, difference)
+- Removing duplicates
 
-### Ordered List
+### Dictionaries
+- Key–value pairs
+- Dictionary methods
+- Nested dictionaries
+- Dictionary comprehensions
 
-Use numbers followed by a period.
+---
 
-1.  First item
-2.  Second item
-3.  Third item
-    1.  Nested ordered item
-    2.  Another nested item
+## 4. Functions & Modular Programming
+### Functions
+- Defining functions
+- Arguments & return values
+- Default arguments
+- Keyword arguments
+- *args & **kwargs
+- Lambda functions
 
-## Links
+### Variable Scope
+- Local vs global variables
 
-You can create inline links:
-[Visit the Markdown Guide](https://www.markdownguide.org).
+---
 
-Or use reference-style links for cleaner text flow:
-[The best search engine][google].
+## 5. File Handling & I/O Operations
+### File Operations
+- Reading files
+- Writing files
+- CSV files
+- TXT files
+- JSON files
 
-[google]: https://www.google.com "Google Homepage"
+---
 
-## Images
+## 6. Exception Handling & Debugging
+### Error Handling
+- try, except, else, finally
+- Common Python exceptions
+- Raising custom exceptions
 
-Images are similar to links but start with an exclamation mark (`!`).
+---
 
-![Markdown Logo](https://markdownlivepreview.com)
+## 7. Object-Oriented Programming (OOP)
+### OOP Concepts
+- Classes & objects
+- __init__ method
+- Instance vs class variables
+- Methods
+- Inheritance
+- Polymorphism
+- Encapsulation
 
-## Blockquotes
+---
 
-Use the greater-than sign (`>`) to quote text.
+## 8. Python Libraries for Data Analytics
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
-> 
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+### NumPy
+- NumPy arrays vs Python lists
+- Array creation
+- Indexing & slicing
+- Vectorized operations
+- Aggregation functions
+- Broadcasting
 
-## Code Blocks
+### Pandas
+#### Core Structures
+- Series
+- DataFrame
 
-Use single backticks (`` ` ``) for `inline code` or triple backticks (```` ``` ````) for fenced code blocks with optional syntax highlighting.
+#### Data Loading
+- read_csv()
+- read_excel()
+- read_sql()
+- read_json()
 
-````markdown
-```javascript
-// Example JavaScript code
-function helloWorld() {
-  console.log("Hello, World!");
-}
-helloWorld();
+#### Data Inspection
+- head(), tail()
+- info(), describe()
+- shape, dtypes
+
+#### Data Cleaning
+- Handling missing values
+- dropna(), fillna()
+- Removing duplicates
+- Data type conversion
+- Renaming columns
+
+#### Data Manipulation
+- Filtering rows
+- Sorting data
+- apply(), map(), lambda
+- GroupBy & aggregation
+- Merging & joining
+- Concatenation
+- Pivot tables
+- Crosstab
+
+---
+
+## 9. Exploratory Data Analysis (EDA)
+### EDA Techniques
+- Summary statistics
+- Distribution analysis
+- Outlier detection
+- Correlation analysis
+- Feature understanding
+
+---
+
+## 10. Data Visualization in Python
+### Matplotlib
+- Line plots
+- Bar charts
+- Histograms
+- Scatter plots
+- Chart customization
+
+### Seaborn
+- Box plots
+- Violin plots
+- Heatmaps
+- Pair plots
+- Categorical plots
+
+---
+
+## 11. Working with Databases Using Python
+### SQL + Python Integration
+- Database connections
+- Executing SQL queries
+- Fetching results
+- Using Pandas with SQL
+
+### Libraries
+- sqlite3
+- psycopg2
+- SQLAlchemy
+
+---
+
+## 12. Statistics for Data Analytics
+### Descriptive Statistics
+- Mean, median, mode
+- Variance & standard deviation
+- Percentiles
+
+### Inferential Statistics
+- Probability concepts
+- Normal distribution
+- Hypothesis testing
+- Z-test
+- T-test
+- Chi-square test
+- Confidence intervals
+
+---
+
+## 13. Date & Time Handling
+### Time Series Basics
+- datetime module
+- Date parsing
+- Time differences
+- Resampling time-series data
+
+---
+
+## 14. Automation & Productivity
+### Automation Use Cases
+- Automating reports
+- Scheduling Python scripts
+- Email automation (basic)
+
+---
+
+## 15. Performance Optimization & Best Practices
+- Efficient loops
+- Vectorization
+- Memory management
+- Writing clean & readable code
+
+---
+
+## 16. Real-World Business Use Cases
+### Business Applications
+- Sales analysis
+- Customer segmentation
+- Churn analysis
+- Marketing campaign analysis
+- Financial reporting
+- KPI dashboards
+
+---
+
+## 17. Python Interview Preparation
+### Common Interview Question Types
+- List & dictionary problems
+- String manipulation
+- Pandas DataFrame questions
+- Logical problem solving
+- Business case scenarios
+
+---
+
+## 📌 Next Steps
+- Practice Python interview questions (Beginner → Advanced)
+- Build end-to-end data analytics projects
+- Integrate Python with SQL & Power BI
+- Prepare for DA / BA / BI interviews
