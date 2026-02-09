@@ -14,6 +14,7 @@ Python is **dynamically typed**, meaning you don’t need to declare the data ty
 x = 10
 name = "Alice"
 price = 99.99
+```
 Rules for Naming Variables
 ✔ Must start with a letter or underscore (_)
 ✔ Can contain letters, numbers, underscores
