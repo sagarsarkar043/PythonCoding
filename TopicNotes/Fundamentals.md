@@ -224,7 +224,7 @@ print(keyword.kwlist)
 ✔ Avoid unnecessary complexity
 ✔ Write readable and maintainable code
 
-##13. Real-World Data Analytics Example
+## 13. Real-World Data Analytics Example
 ```
 sales = [1000, 1500, 1200, 1800]
 
@@ -236,11 +236,17 @@ for amount in sales:
 print("Total Sales:", total_sales)
 ```
 
-##14. Common Syntax & Indentation Errors
+## 14. Common Syntax & Indentation Errors
 ❌ Missing Colon
+
+`
 if sales > 1000
     print("High sales")
+`	
 ❌ Mixed Tabs and Spaces
+
+`
 if sales > 1000:
 	print("High sales")
     print("Check formatting")
+`
