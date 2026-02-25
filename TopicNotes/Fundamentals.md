@@ -220,8 +220,11 @@ print(keyword.kwlist)
 ## 12. Best Practices for Clean Python Code
 
 ✔ Use meaningful variable names
+
 ✔ Maintain consistent indentation
+
 ✔ Avoid unnecessary complexity
+
 ✔ Write readable and maintainable code
 
 ## 13. Real-World Data Analytics Example
@@ -243,6 +246,7 @@ print("Total Sales:", total_sales)
 if sales > 1000
     print("High sales")
 `	
+
 ❌ Mixed Tabs and Spaces
 
 `
